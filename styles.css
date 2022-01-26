@@ -1,9 +1,38 @@
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+}
+
 img{
     width: 400px;
     height: 500px;
 }
 
 body{
+    margin-top: 10vh ;
     display: block;
+    justify-content: space-evenly;
     
+}
+
+div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    font-size: 160px;
 }
